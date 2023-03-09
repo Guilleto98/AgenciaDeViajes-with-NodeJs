@@ -1,0 +1,27 @@
+{
+  "name": "agencia-viajes",
+  "version": "1.0.0",
+  "description": "Firs Project with NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guilleto98/AgenciaDeViajes-with-NodeJs.git"
+  },
+  "author": "Guillermo Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guilleto98/AgenciaDeViajes-with-NodeJs/issues"
+  },
+  "homepage": "https://github.com/Guilleto98/AgenciaDeViajes-with-NodeJs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
