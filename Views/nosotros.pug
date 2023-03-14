@@ -1,2 +1,33 @@
-h1 Hola
-p Desde pug
+extends ./Layout/index
+
+block contenido
+    main.container.mt-5 
+        .row
+            .col.md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+
+            .col.md-7
+                h1= pagina
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et. 
+
+                p Aliquet lectus proin nibh nisl. Congue nisi vitae suscipit tellus mauris a. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Facilisi morbi tempus iaculis urna id volutpat lacus.
+
+                p Nec sagittis aliquam malesuada bibendum arcu. Erat imperdiet sed euismod nisi porta lorem mollis aliquam. Nunc sed blandit libero volutpat. Volutpat blandit aliquam etiam erat velit.
+    
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad" class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destino" class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios" class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

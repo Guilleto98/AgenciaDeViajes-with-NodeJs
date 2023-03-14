@@ -19,7 +19,9 @@
   "homepage": "https://github.com/Guilleto98/AgenciaDeViajes-with-NodeJs#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "pug": "^3.0.2"
+    "mysql2": "^3.2.0",
+    "pug": "^3.0.2",
+    "sequelize": "^6.29.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.21"
